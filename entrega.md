@@ -11,22 +11,24 @@
 
 ## Checklist de Evidências
 
-- [ ] Repositório público com README (nome + RA) e .gitignore
-- [ ] Mínimo de 6 commits com Conventional Commits + feature branch
-- [ ] API com **CRUD completo** de reservas (POST, GET, GET/:id, PUT, DELETE) + /health
+- [x] Repositório público com README (nome + RA) e .gitignore 
+- [x] Mínimo de 6 commits com Conventional Commits + feature branch
+- [x] API com **CRUD completo** de reservas (POST, GET, GET/:id, PUT, DELETE) + /health
 - [ ] Rotas de CRUD gravando no **banco PostgreSQL** (não em memória)
-- [ ] Dockerfile funcional da API de Reservas
-- [ ] docker-compose.yml (API + PostgreSQL) subindo com um comando
+- [x] Dockerfile funcional da API de Reservas
+- [x] docker-compose.yml (API + PostgreSQL) subindo com um comando
 - [ ] Terraform modularizado (vpc, security-group, ec2, rds)
-- [ ] **RDS PostgreSQL provisionado** nas subnets privadas (banco da API na nuvem)
-- [ ] Remote State configurado (S3 + DynamoDB)
-- [ ] Uso de LabRole/LabInstanceProfile (sem criar IAM próprio)
+- [x] **RDS PostgreSQL provisionado** nas subnets privadas (banco da API na nuvem)
+- [x] Remote State configurado (S3 + DynamoDB)
+- [x] Uso de LabRole/LabInstanceProfile (sem criar IAM próprio)
 - [ ] terraform validate e terraform plan sem erros
-- [ ] relatorio.md completo (4 questões)
+- [x] relatorio.md completo (4 questões)
 - [ ] terraform destroy executado após evidências
 
 (Marque apenas o que você realmente executou e comprovou.)
 
-## Evidências
 
-Cole aqui: docker compose ps, terraform plan, curl do CRUD, terraform destroy.
+
+
+
+
