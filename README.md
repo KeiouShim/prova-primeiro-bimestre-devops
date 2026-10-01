@@ -32,7 +32,7 @@ cd infra/backend && terraform init && terraform apply -var="bucket_name=technova
 # 2) ajuste o bucket em infra/providers.tf, depois:
 cd .. && terraform init
 export TF_VAR_db_password='senha-forte'
-terraform plan -var="repo_url=https://github.com/SEU-USUARIO/prova-primeiro-bimestre-devops.git"
+terraform plan -var="repo_url=https://github.com/KeiouShim/prova-primeiro-bimestre-devops.git"
 terraform apply -var="repo_url=..."
 # ao final, SEMPRE:
 terraform destroy
